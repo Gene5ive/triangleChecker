@@ -19,23 +19,24 @@
 
           <div class="form-group">
             <label for="side1">Side 1</label>
-            <input class="form-control">
+            <input id="side1" class="form-control">
           </div>
 
           <div class="form-group">
             <label for="side1">Side 2</label>
-            <input class="form-control">
+            <input id="side2" class="form-control">
           </div>
 
           <div class="form-group">
             <label for="side1">Side 3</label>
-            <input class="form-control">
+            <input id="side3" class="form-control">
           </div>
           <button class="btn btn-primary">Submit</button>
         </form>
 
         <div id="result">
-          <p>This is a <span id="triangle-type"></span> triangle</p>
+          <p id="not-triangle" class="text-center lead">This isn't a triangle</p>
+          <p id="is-triangle" class="text-center lead">This triangle is <span id="triangle-type"></span></p>
         </div>
       </div>
     </div>

@@ -2,6 +2,15 @@
   margin-bottom: 50px;
 }
 
-#result {
+form {
+  margin-bottom: 60px;
+}
+
+/*#result {
+  display: none;
+}*/
+
+#not-triangle,
+#is-triangle {
   display: none;
 }
